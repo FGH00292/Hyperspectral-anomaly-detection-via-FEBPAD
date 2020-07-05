@@ -1,14 +1,14 @@
-# Hyperspectral-anomaly-detection-via-integration-of-feature-extraction-and-background-purification
+# Hyperspectral anomaly detection
 This is the implementation of article: ["Hyperspectral anomaly detection via integration of feature extraction and background purification"](https://ieeexplore.ieee.org/document/9115873).
 # Usage
-Run "**demo.m**" after setting potimal parameters p, r and k.
+Run "**demo.m**" after setting optimal parameters p, r and k.
 # Description
 * **demo.m** ---------- main file
   * **FEBPAD.m** ---------- implementation of the proposed algorithm;
     * **FrFT.m** ---------- fractional Fourier Transformation;
     * **GRX_adv.m** ---------- modified GRX with given background atoms;
     * **RC_LRASMD.m** ---------- row-constrained low-rank and sparse matrix decomposition;
-* **ROC.m**----------Calculate the AUC value with given detection map.
+  * **ROC.m**----------Calculate the AUC value with given detection map.
 # Reference
 If you find the code helpful, please kindly cite the following paper:
 * Plain Text:<br>
