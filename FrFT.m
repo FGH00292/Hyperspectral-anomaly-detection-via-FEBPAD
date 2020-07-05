@@ -1,10 +1,10 @@
 function data1=FrFT(data,p)
 % Feature extraction by Fractional Fourier Transformation.
 % INPUTS:
-%   - data:  HSI data set (rows * columns * bands);
+%   - data:  HSI data set (rows by columns by bands);
 %   - p:     fractional transform order.
 % OUTPUT:
-%   - data1: HSI data set after FrFT (rows * columns * bands).
+%   - data1: HSI data set after FrFT (rows by columns by bands).
 
     [M,N,L]=size(data);
     data1=zeros(M,N,L);
