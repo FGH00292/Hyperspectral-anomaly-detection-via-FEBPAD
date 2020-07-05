@@ -30,5 +30,5 @@ for num=1
     y=FEBPAD(data,p,r,k);
     
     % Evaluation
-    AUC=ROC(y,map,1);                                     % ROC
+    AUC=ROC(y,map,1);                                          % ROC
 end
